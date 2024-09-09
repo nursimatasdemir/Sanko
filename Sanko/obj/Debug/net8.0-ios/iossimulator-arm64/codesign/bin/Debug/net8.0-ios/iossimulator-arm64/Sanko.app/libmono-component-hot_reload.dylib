@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Sanko/bin/Debug/net8.0-ios/iossimulator-arm64/Sanko.app/libmono-component-hot_reload.dylib

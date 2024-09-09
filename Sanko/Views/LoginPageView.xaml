@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Sanko.Views"
+             x:Class="Sanko.Views.LoginPageView"
+             Title="LoginPageView">
+             <Grid>
+             <Image Aspect="Center"
+                    Source="sankophotoroom.png"
+                    WidthRequest="270"
+                    HeightRequest="200"
+                    Opacity=".4"/>
+                    <Grid>
+                    <VerticalStackLayout Margin="30,90,30,30">
+                    <Label Margin="20,30,20,30"
+                    Text="Hoşgeldiniz"
+                    FontSize="55"
+                    FontFamily="Bold"
+                    TextColor="#010E47"/>
+                    <Grid Margin="0,60,10,0"
+                    ColumnDefinitions=".2*,.8*">
+                    <RoundRectangle BackgroundColor="White"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="50"/>
+                    <Image HorizontalOptions="Center"
+                    Source="usericon.png"
+                    WidthRequest="50"
+                    HeightRequest="50"/>
+                    <Entry x:Name="emailEntry"
+                    Grid.Column="1"
+                    Placeholder="Email"
+                    VerticalOptions="Center"
+                    BackgroundColor="#777A96"/>
+                    </Grid>
+                    <Grid Margin="0,30,10,0"
+                    ColumnDefinitions=".2*,.8*">
+                    <RoundRectangle BackgroundColor="White"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+                    <Image HorizontalOptions="Center"
+                    Source="passwordicon.png"
+                    WidthRequest="50"
+                    HeightRequest="50"/>
+                    <Entry x:Name="passwordEntry"
+                    Grid.Column="1"
+                    Placeholder="Şifre"
+                    VerticalOptions="Center"
+                    BackgroundColor="#777A96"/>
+                    </Grid>
+                    </VerticalStackLayout>
+                    </Grid>
+             </Grid>
+</ContentPage>

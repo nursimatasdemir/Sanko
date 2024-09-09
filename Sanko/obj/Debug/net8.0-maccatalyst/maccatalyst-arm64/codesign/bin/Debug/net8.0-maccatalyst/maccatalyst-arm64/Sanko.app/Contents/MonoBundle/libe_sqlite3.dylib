@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Sanko/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Sanko.app/Contents/MonoBundle/libe_sqlite3.dylib
