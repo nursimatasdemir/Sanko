@@ -4,6 +4,83 @@
     "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Sanko/Sanko.csproj": {}
   },
   "projects": {
+    "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Database/Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Database/Database.csproj",
+        "projectName": "Database",
+        "projectPath": "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Database/Database.csproj",
+        "packagesPath": "/Users/nursimatasdemir/.nuget/packages/",
+        "outputPath": "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Database/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nursimatasdemir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            },
+            "SQLitePCLRaw.lib.e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Sanko/Sanko.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,15 +106,27 @@
         "frameworks": {
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Database/Database.csproj": {
+                "projectPath": "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Database/Database.csproj"
+              }
+            }
           },
           "net8.0-ios17.5": {
             "targetAlias": "net8.0-ios",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Database/Database.csproj": {
+                "projectPath": "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Database/Database.csproj"
+              }
+            }
           },
           "net8.0-maccatalyst17.5": {
             "targetAlias": "net8.0-maccatalyst",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Database/Database.csproj": {
+                "projectPath": "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Database/Database.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -101,6 +190,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.android-arm",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.android-arm64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.android-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.android-x86",
+              "version": "[8.0.8, 8.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -232,7 +339,22 @@
         }
       },
       "runtimes": {
+        "android-arm": {
+          "#import": []
+        },
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        },
+        "android-x86": {
+          "#import": []
+        },
         "iossimulator-arm64": {
+          "#import": []
+        },
+        "maccatalyst-arm64": {
           "#import": []
         }
       }

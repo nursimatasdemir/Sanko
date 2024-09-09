@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Y9JddgBggNk=",
+  "dgSpecHash": "k40dvK5PWeI=",
   "success": true,
   "projectFilePath": "/Users/nursimatasdemir/Documents/dotnet/AndonMobileApp/Sanko/Sanko/Sanko/Sanko.csproj",
   "expectedPackageFiles": [
@@ -152,7 +152,11 @@
     "/Users/nursimatasdemir/.nuget/packages/xamarin.kotlin.stdlib.jdk7/1.9.0.1/xamarin.kotlin.stdlib.jdk7.1.9.0.1.nupkg.sha512",
     "/Users/nursimatasdemir/.nuget/packages/xamarin.kotlin.stdlib.jdk8/1.9.0.1/xamarin.kotlin.stdlib.jdk8.1.9.0.1.nupkg.sha512",
     "/Users/nursimatasdemir/.nuget/packages/xamarin.kotlinx.coroutines.android/1.7.2.1/xamarin.kotlinx.coroutines.android.1.7.2.1.nupkg.sha512",
-    "/Users/nursimatasdemir/.nuget/packages/xamarin.kotlinx.coroutines.core.jvm/1.7.2.1/xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512"
+    "/Users/nursimatasdemir/.nuget/packages/xamarin.kotlinx.coroutines.core.jvm/1.7.2.1/xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
+    "/Users/nursimatasdemir/.nuget/packages/microsoft.netcore.app.runtime.mono.android-arm/8.0.8/microsoft.netcore.app.runtime.mono.android-arm.8.0.8.nupkg.sha512",
+    "/Users/nursimatasdemir/.nuget/packages/microsoft.netcore.app.runtime.mono.android-arm64/8.0.8/microsoft.netcore.app.runtime.mono.android-arm64.8.0.8.nupkg.sha512",
+    "/Users/nursimatasdemir/.nuget/packages/microsoft.netcore.app.runtime.mono.android-x86/8.0.8/microsoft.netcore.app.runtime.mono.android-x86.8.0.8.nupkg.sha512",
+    "/Users/nursimatasdemir/.nuget/packages/microsoft.netcore.app.runtime.mono.android-x64/8.0.8/microsoft.netcore.app.runtime.mono.android-x64.8.0.8.nupkg.sha512"
   ],
   "logs": []
 }

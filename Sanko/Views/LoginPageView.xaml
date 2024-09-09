@@ -53,6 +53,14 @@
                     VerticalOptions="Center"
                     BackgroundColor="#777A96"/>
                     </Grid>
+                    <Grid Margin="0,50,10,0"
+                     ColumnDefinitions=".5*,.5*"> 
+                     <Button x:Name="Login"
+                            Grid.Column="1"
+                            BackgroundColor="#010E47"
+                            Text="Giriş Yap"
+                            Clicked="Login_Clicked"/>
+                     </Grid>
                     </VerticalStackLayout>
                     </Grid>
              </Grid>
